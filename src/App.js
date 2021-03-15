@@ -31,20 +31,24 @@ function App() {
           <Grid item>
             <Paper>
               <Typography className={classes.text} variant="h5">
-                Humboldt4Future ist ein Projekt dessen Ziel es ist auf den Klimawandel aufmerksam
-                zu machen und einfach umzusetzende Tipps zu einer umweltfreundlicheren Lebensweise
-                zu geben.<br/> Das Projekt besteht aus einer Gruppe von 13 Schüler/-innen, der elften
-                Jahrgangsstufe, des Humboldt-Gymnasiums aus Vaterstetten, die im Rahmen des
-                Unterrichts eine Applikation entwickeln, um den Ökologischen Fußabdruck ihrer
-                Mitschüler/-innen zu errechnen. Spätestens im Februar 2022 soll eine Umfrage an
-                die Schule gebracht werden, in den darauffolgenden Monaten werden die Ergebnisse
-                dann ausgewertet und voraussichtlich im Mai präsentiert.<br/> Das Ziel ist es mit
-                leicht verständlichen Fragen und einem direkten Feedback nach der Beantwortung
-                der Umfrage ein Bewusstsein für Umwelt und Klimaschutz zu schaffen. Teil des
-                Feedbacks werden umweltfreundlichere Alternativen zum Lebensstil der
-                Teilnehmer/-innen sein.<br/> Nach der Auswertung der Umfrage werden wir die
-                Ergebnisse datenschutzgerecht veröffentlichen und je nach Erfolg wird 
-                geplant die Umfrage auch anderen Schulen zu Verfügung zu stellen.
+                Das Ziel unseres Schülerprojekts Humboldt 4 Future ist, 
+                die Mitglieder der Schulfamilie auf den Klimawandel aufmerksam 
+                zu machen und einfach umzusetzende Tipps zu einer 
+                umweltfreundlicheren Lebensweise zu geben.<br/>
+                Hierfür entwickeln 13 Schüler/-innen der elften Jahrgangsstufe 
+                des Humboldt-Gymnasiums Vaterstetten im Rahmen des Unterrichts 
+                eine Applikation zur Berechnung des Ökologischen Fußabdrucks ihrer 
+                Mitschüler/-innen. Anfang 2022 soll diese Umfrage an 
+                die Schule gebracht werden, in den darauffolgenden Monaten 
+                werden die Ergebnisse dann ausgewertet und präsentiert.<br/>
+                Mit leicht verständlichen Fragen und einem direkten Feedback 
+                nach der Beantwortung der Umfrage soll ein Bewusstsein 
+                für Umwelt und Klimaschutz geschaffen werden. Teil des 
+                Feedbacks werden umweltfreundlichere Alternativen zum Lebensstil 
+                der Teilnehmer/-innen sein. <br/>
+                Die ausgewerteten Umfrageergebnisse sollen datenschutzgerecht 
+                veröffentlicht werden. Bei Erfolg ist geplant, das Umfragetool 
+                auch anderen Schulen zur Verfügung zu stellen.
               </Typography>
             </Paper>
           </Grid>
