@@ -1,6 +1,13 @@
-import { Container, AppBar, Typography, Button, Grid, Paper, Link } from '@material-ui/core';
+import { Container, AppBar, Typography, Button, Grid, Paper, Link, Box } from '@material-ui/core';
+import fff from './images/fff.png';
+import pff from './images/pff.png';
+import tff from './images/tff.png';
+import sff from './images/sff.png';
 import logo from './images/h4f.png';
 import useStyles from './styles.js';
+
+//todo: correct logo sizing on mobile devices
+//todo: port correct heading to tool
 
 function App() {
   const classes = useStyles();
@@ -8,10 +15,17 @@ function App() {
   return (
     <Container maxwidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography className={classes.heading} variant="h2" align="center">
-          Humboldt4Future
-        </Typography>
-        <img className={classes.image} src={logo} alt="logo" height="60"/>
+        <Box display={{xs: 'none', sm: 'block'}}>
+          <Typography className={classes.heading} variant="h2" align="center">
+            Humboldt4Future
+          </Typography>
+        </Box>
+        <Box display={{xs: 'block', sm: 'none'}}>
+          <Typography className={classes.heading} variant="h2" align="center">
+            H4F
+          </Typography>
+        </Box>
+        <img className={classes.titleimage} src={logo} alt="logo" height="60"/>
       </AppBar>
       <Container>
         <Grid className={classes.mainContainer} container justify="space-between" alignItems="stretch" spacing={3}>
@@ -26,6 +40,24 @@ function App() {
                 <br/>
                 Note: Currently the tool is not functional
               </Typography>
+            </Paper>
+          </Grid>
+          <Grid item>
+            <Paper>
+              <Box display="flex" justifyContent="center">
+                <a href="https://fridaysforfuture.de">
+                  <img className={classes.logoimage} src={fff} alt="fff"/>
+                </a>
+                <a href="https://parentsforfuture.de/en/">
+                  <img className={classes.logoimage} src={pff} alt="pff"/>
+                </a>
+                <a href="https://teachers4f.de">
+                  <img className={classes.logoimage} src={tff} alt="tff"/>
+                </a>
+                <a href="https://de.scientists4future.org">
+                  <img className={classes.logoimage} src={sff} alt="sff"/>
+               </a>
+              </Box>
             </Paper>
           </Grid>
           <Grid item>
