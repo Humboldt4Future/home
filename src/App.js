@@ -9,6 +9,8 @@ import useStyles from './styles.js';
 //todo: correct logo sizing on mobile devices
 //todo: port correct heading to tool
 
+//Kommentar von Moritz
+
 function App() {
   const classes = useStyles();
 
