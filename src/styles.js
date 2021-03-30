@@ -16,7 +16,7 @@ export default makeStyles((theme) => ({
         marginLeft: '15px',
     },
     mainContainer: {
-        flexDirection: "column-reverse",
+        flexDirection: "column",
     },
     note: {
         borderRadius: 15,
