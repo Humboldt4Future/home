@@ -58,6 +58,14 @@ function App() {
               </Box>
             </Paper>
           </Grid>
+          <Grid item>
+            <Paper>
+              <Typography className={classes.text} variant="h4">
+                <a href="https://www.humboldt-gym.de">Hier</a> kommen sie zu der Website unserer Schule <br/>
+                Bei Fragen können sie uns unter info@humboldt4future.com kontaktieren
+              </Typography>
+            </Paper>
+          </Grid>
           <Grid className={classes.note} item>
             <Paper>
               <Typography variant="h5" align="center">
