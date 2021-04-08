@@ -59,11 +59,12 @@ function App() {
             </Paper>
           </Grid>
           <Grid item>
-            <Paper>
-              <Typography className={classes.text} variant="h4">
-                <a href="https://www.humboldt-gym.de">Hier</a> kommen sie zu der Website unserer Schule <br/>
-                Bei Fragen können sie uns unter info@humboldt4future.com kontaktieren
-              </Typography>
+            <Paper align="center">
+              <Link className={classes.link} href="https://humboldt4future.github.io/impressum/">
+                <Typography className={classes.text} variant="h5">
+                  Hier kommen sie zu unserem Impressum, auf dem auch das Impressum unserer Schule verlinkt ist
+                </Typography>
+              </Link>
             </Paper>
           </Grid>
           <Grid className={classes.note} item>
@@ -74,8 +75,6 @@ function App() {
                     Click here to get to the tool
                   </Button>
                 </Link>
-                <br/>
-                Note: Currently the tool is not functional
               </Typography>
             </Paper>
           </Grid>
